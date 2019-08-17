@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 16 Aug 2019 22:29:13 -0300</lastBuildDate>
+    <image>
+      <url>img/icon-192.png</url>
+      <title></title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>BNote</title>
+      <link>/project/bnote/</link>
+      <pubDate>Fri, 16 Aug 2019 22:29:13 -0300</pubDate>
+      <guid>/project/bnote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sonar Navigation Belt</title>
+      <link>/project/snb/</link>
+      <pubDate>Fri, 16 Aug 2019 22:29:13 -0300</pubDate>
+      <guid>/project/snb/</guid>
+      <description>
+
+&lt;h1 id=&#34;big-header&#34;&gt;big header&lt;/h1&gt;
+
+&lt;p&gt;The project content is here.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import lib from bib
+some = &#39;code&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;this is a quote&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;not-the-biggest-header&#34;&gt;not the biggest header&lt;/h2&gt;
+
+&lt;p&gt;list of items:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;item 0&lt;/li&gt;
+&lt;li&gt;item 1&lt;/li&gt;
+&lt;li&gt;item 2&lt;/li&gt;
+&lt;li&gt;item 3&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects Page</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

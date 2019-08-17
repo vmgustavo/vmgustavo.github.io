@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | </title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 16 Aug 2019 22:29:13 -0300</lastBuildDate>
+    <image>
+      <url>img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>Gustavo Maia</title>
+      <link>/authors/gustavo-maia/</link>
+      <pubDate>Fri, 16 Aug 2019 22:29:13 -0300</pubDate>
+      <guid>/authors/gustavo-maia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Majoring Electrical Engineering at the Universidade Federal de Minas Gerais (UFMG) with emphasis on Computer Engineering. Worked with projects related to data science at the UFMG&amp;rsquo;s Computational Intelligence Laboratory (Laboratório de Inteligência Computacional - LITC). Interested in Biomedical Engineering, Data Science and Computational Inteligence. Currently working as a junior data science researcher at ENACOM.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

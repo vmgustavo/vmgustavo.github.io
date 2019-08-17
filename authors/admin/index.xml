@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/authors/admin/</link>
+      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>img/icon-192.png</url>
+      <title></title>
+      <link>/authors/admin/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Majoring Electrical Engineering at the Universidade Federal de Minas Gerais (UFMG) with emphasis on Computer Engineering. Worked with projects related to data science at the UFMG&amp;rsquo;s Computational Intelligence Laboratory (Laboratório de Inteligência Computacional - LITC). Interested in Biomedical Engineering, Data Science and Computational Inteligence. Currently working as a junior data science researcher at ENACOM.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

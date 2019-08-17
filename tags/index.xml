@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | </title>
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 16 Aug 2019 22:29:13 -0300</lastBuildDate>
+    <image>
+      <url>img/icon-192.png</url>
+      <title>Tags</title>
+      <link>/tags/</link>
+    </image>
+    
+    <item>
+      <title>embedded</title>
+      <link>/tags/embedded/</link>
+      <pubDate>Fri, 16 Aug 2019 22:29:13 -0300</pubDate>
+      <guid>/tags/embedded/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackathon</title>
+      <link>/tags/hackathon/</link>
+      <pubDate>Fri, 16 Aug 2019 22:29:13 -0300</pubDate>
+      <guid>/tags/hackathon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
