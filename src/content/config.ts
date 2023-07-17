@@ -13,6 +13,7 @@ const post = defineCollection({
 		z.object({
 			title: z.string().max(60),
 			description: z.string().min(50).max(160),
+			language: z.string().min(2).max(2).optional(),
 			publishDate: z.string().transform((str) => new Date(str)),
 			coverImage: z
 				.object({
