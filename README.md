@@ -121,6 +121,8 @@ import { GoogleAnalytics } from "astro-google-analytics";
 </head>
 ```
 
+If the TAG is not working try debuging with https://tagassistant.google.com/
+
 ## Deploy
 
 [Astro docs](https://docs.astro.build/en/guides/deploy/) has a great section and breakdown of how to deploy your own Astro site on various platforms and their idiosyncrasies.
