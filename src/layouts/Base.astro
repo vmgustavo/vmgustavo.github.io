@@ -18,12 +18,11 @@ const {
 
 <html lang={siteConfig.lang}>
 	<head>
-		<BaseHead title={title} description={description} ogImage={ogImage} articleDate={articleDate} />
-
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVT8HKGKXD"></script>
 		<script src="../lib/analytics.js"/>
 
+		<BaseHead title={title} description={description} ogImage={ogImage} articleDate={articleDate} />
 	</head>
 	<body>
 		<ThemeProvider />
