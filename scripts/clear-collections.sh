@@ -12,3 +12,5 @@ fi
 ! rm -r src/content/uniques
 ! rm src/content/.gitignore
 ! rm src/content/template-note.md
+
+echo "files removed"
