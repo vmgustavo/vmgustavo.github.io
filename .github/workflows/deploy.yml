@@ -15,21 +15,16 @@ permissions:
   id-token: write
 
 jobs:
-  pre-build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: commands pre build
-        shell: bash
-        run: |
-          git submodule update --remote --recursive
-          bash scripts/clear-collections.sh
-
   build:
-    needs: pre-build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
+      - name: Remove unwanted files for Astro Collections
+        shell: bash
+        run: |
+          git submodule update --remote --recursive
+          bash scripts/clear-collections.sh
       - name: Install, build, and upload your site
         uses: withastro/action@v0
         # with:
