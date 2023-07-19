@@ -21,7 +21,9 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
         with:
-          submodules: true
+          ssh-key: |
+            ${{ secrets.SSH_PRIVATE_KEY_CONTENTS }} 
+          submodules: 'recursive'
       - name: Remove unwanted files for Astro Collections
         shell: bash
         run: |
