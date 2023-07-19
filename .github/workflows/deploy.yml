@@ -20,15 +20,20 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
+
+      - name: Add SSH private keys for submodule repositories
+        uses: webfactory/ssh-agent@0.7.0
         with:
-          ssh-key: |
-            ${{ secrets.SSH_PRIVATE_KEY_CONTENTS }} 
-          submodules: 'recursive'
+          ssh-private-key: |
+            ${{ secrets.SSH_PRIVATE_KEY_CONTENTS }}
+
+      - run: git submodule update --init --recursive
+
       - name: Remove unwanted files for Astro Collections
         shell: bash
         run: |
-          git submodule update --remote --recursive
           bash scripts/clear-collections.sh
+
       - name: Install, build, and upload your site
         uses: withastro/action@v0
         # with:
