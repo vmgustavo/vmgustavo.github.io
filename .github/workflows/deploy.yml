@@ -29,11 +29,7 @@ jobs:
             ${{ secrets.SSH_PRIVATE_KEY_SUBMODULE_CONTENTS }}
         
       - name: Pull submodules recursivelly
-        run: |
-          git submodule update --init --recursive --remote
-          git add src/content
-          git commit -m "update submodule"
-          git push
+        run: git submodule update --init --recursive --remote
 
       - name: Remove unwanted files for Astro Collections
         shell: bash
