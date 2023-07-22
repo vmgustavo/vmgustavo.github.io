@@ -22,12 +22,18 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Add SSH private keys for submodule repositories
+        # https://github.com/actions/checkout/issues/287#issuecomment-1398500696
         uses: webfactory/ssh-agent@v0.8.0
         with:
           ssh-private-key: |
             ${{ secrets.SSH_PRIVATE_KEY_SUBMODULE_CONTENTS }}
-
-      - run: git submodule update --init --recursive
+        
+      - name: Pull submodules recursivelly
+        run: |
+          git submodule update --init --recursive --remote
+          git add src/content
+          git commit -m "update submodule"
+          git push
 
       - name: Remove unwanted files for Astro Collections
         shell: bash
@@ -36,10 +42,6 @@ jobs:
 
       - name: Install, build, and upload your site
         uses: withastro/action@v0
-        # with:
-            # path: . # The root location of your Astro project inside the repository. (optional)
-            # node-version: 16 # The specific version of Node that should be used to build your site. Defaults to 16. (optional)
-            # package-manager: yarn # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
 
   deploy:
     needs: build
